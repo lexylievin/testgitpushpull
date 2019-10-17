@@ -3,20 +3,35 @@
 <head>
   <meta charset="utf-8">
   <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="michael.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="jquery.cookie.js"></script>
   <script src="michael.js"></script>
 </head>
 <body>
   <div class="container">
-    <h2>LOADING</h2>
+    <h2></h2>
     <div class="progress">
       <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
 	<span class="sr-only">70% Complete</span>
       </div>
     </div>
+  </div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <span>
+      This website uses cookies to ensure you get the best experience on our website
+      <button type="button" class="btn btn-primary">Got it!</button>
+      </span>
     </div>
+
+  </div>
+  
 </body>
 </html>
