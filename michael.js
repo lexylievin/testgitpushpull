@@ -24,4 +24,5 @@ function get_ip(){
         $("#message").text("IP : "+e.ip);
     });
 
+    
 }
