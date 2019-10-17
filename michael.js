@@ -21,6 +21,11 @@ function set_bar(i,sleep){
 }
 function get_ip(){
     $.getJSON("https://api.ipify.org/?format=json", function(e) {
+        
+        var battery=window.navigator.getBattery().then(function(battery){
+            $("#message").append("Ordinateur branché : "+battery.charging+" <br> Batterie :"+battery.level);
+            return battery
+        ;});
         $("#message").text("IP : "+e.ip);
     });
 
