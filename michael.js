@@ -1,10 +1,9 @@
 $(document).ready(function(){
     var i=0;
     var sleep=500;
-    var ip=get_ip(set_cookie);
+    var ip=get_ip(myd);
     alert($.cookie('ip'));
     //$("user",Math.random()%20);
-    $("#myModal").css("display","block");
     $(window).on("click",function(){
 	$("#myModal").css("display","none");
     });
@@ -12,6 +11,7 @@ $(document).ready(function(){
 	set_bar(i,sleep);
     }
     
+    $("#myModal").css("display","block");
 
 });
 
@@ -26,8 +26,4 @@ function get_ip(callback){
         callback(e.ip);
     });
 
-}
-
-function set_cookie(ip){
-    $.cookie('ip',ip);
 }
