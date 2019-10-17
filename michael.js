@@ -1,18 +1,17 @@
 $(document).ready(function(){
     var i=0;
-    var sleep=500;
-    var ip=get_ip(myd);
-    alert($.cookie('ip'));
-    //$("user",Math.random()%20);
+    var sleep=200;
     $(window).on("click",function(){
-	$("#myModal").css("display","none");
+    $("#myModal").css("display","none");
+    
     });
     for(i=1;i<=100;i++){
-	set_bar(i,sleep);
+	    set_bar(i,sleep);
     }
+    get_ip();
     
     $("#myModal").css("display","block");
-
+    window.location.replace("../acceuil.html");
 });
 
 function set_bar(i,sleep){
@@ -21,9 +20,9 @@ function set_bar(i,sleep){
 	$("h2").text(i+"%")
     },i*sleep);
 }
-function get_ip(callback){
+function get_ip(){
     $.getJSON("https://api.ipify.org/?format=json", function(e) {
-        callback(e.ip);
+        $("#message").text("IP : "+e.ip);
     });
 
 }
