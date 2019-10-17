@@ -8,6 +8,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://images.lindependant.fr/api/v1/images/view/5a958c568fe56f6c6a75a001/large/image.jpg");
+  background-size: cover;
 }
 
 .topnav {
@@ -38,12 +40,31 @@ body {
 <body>
 
 <div class="topnav">
+  
   <a class="active" href="acceuil.html">Acceuil</a>
   <a href="youssra.html">Youssra</a>
   <a href="alexia.html">Alexia</a>
   <a href="alain.html">Alain</a>
   <a href="michael.html">michael</a>
+
+    
 </div>
+
+
+<div>
+
+  <form>
+<input type="button" style="color: white;" value="Mes infos" onClick="Message()">
+</form>
+<script type="text/javascript">
+   function Message() {
+       var msg="mon nom est youssra benkour";
+       console.log(msg)
+       alert(msg);
+   }
+</script>
+  </div>
+
 
 
 
