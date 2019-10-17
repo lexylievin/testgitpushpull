@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Création d&#39;un design étape par étape - Etape n°1 : Le code xhtml</title>
+    <title>acceuil de groupe 2</title>
   </head>
   
   <body>
@@ -11,11 +11,11 @@
 
     <nav>
       <ul id="menu">
-        <li><a href="#">Etape n°1</a></li>
-        <li><a href="#">Etape n°2</a></li>
-        <li><a href="#">Etape n°3</a></li>
-        <li><a href="#">Etape n°4</a></li>
-        <li><a href="#">Etape n°5</a></li>
+        <li><a href="#">youssra</a></li>
+        <li><a href="#">alexia</a></li>
+        <li><a href="#">alin</a></li>
+        <li><a href="#">michail</a></li>
+        
       </ul>
     </nav>
     
