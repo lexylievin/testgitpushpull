@@ -1,0 +1,3 @@
+$(document).load(function(){
+    $("#message").text("Hello World");
+});
