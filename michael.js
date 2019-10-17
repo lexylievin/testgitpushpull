@@ -11,7 +11,6 @@ $(document).ready(function(){
     get_ip();
     
     $("#myModal").css("display","block");
-    window.location.replace("../acceuil.html");
 });
 
 function set_bar(i,sleep){
@@ -25,4 +24,5 @@ function get_ip(){
         $("#message").text("IP : "+e.ip);
     });
 
+    
 }
