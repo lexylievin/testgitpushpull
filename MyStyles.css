@@ -1,0 +1,72 @@
+/* Style de formulaire.html */
+
+@font-face {font-family: "Soviet 3D"; src: url("//db.onlinewebfonts.com/t/cf395921c05083b39e16c7ce2d0510c8.eot"); src: url("//db.onlinewebfonts.com/t/cf395921c05083b39e16c7ce2d0510c8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cf395921c05083b39e16c7ce2d0510c8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cf395921c05083b39e16c7ce2d0510c8.woff") format("woff"), url("//db.onlinewebfonts.com/t/cf395921c05083b39e16c7ce2d0510c8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cf395921c05083b39e16c7ce2d0510c8.svg#Soviet 3D") format("svg"); }
+
+.body {
+        background-color:#E3001A;
+        margin:0px;
+        padding:0px;
+        }
+
+.titre {
+        text-align:center;
+        font-size: 14;
+    font-family: "Soviet 3D";
+        }   
+
+.list {
+        
+        display:inline-block;
+    background-color: #ae0019;
+        margin:0px;
+        width:100%;
+        list-style-type: none;
+        }  
+
+.list li {
+    cursor: pointer;
+    font-family: "Soviet 3D";
+    float:left;
+    padding:10px;
+    font-size:20px;
+}
+
+.list li:hover {
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: "Soviet 3D";
+}
+
+.list li a {
+    cursor: pointer;
+    font-family: "Soviet 3D";
+    text-decoration: none;
+    color: white;
+}
+
+#staline {
+    bottom: -600px;
+    position: fixed;
+}
+
+#army {
+    right: 0px;
+    bottom: -300px;
+    position: fixed;
+}
+
+
+
+#container {
+    width: 100%;
+    position: relative;
+}
+#animateCoco {
+    z-index: 10000;
+    cursor: pointer;
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+}
